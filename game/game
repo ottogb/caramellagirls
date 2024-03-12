@@ -1,0 +1,679 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="title" content="Caramella Girls for iPhone & iPod Touch!" />
+<meta name="description" content="Check out the website for the game!" />
+<link rel="image_src" href="http://www.caramellagirls.com/game/thumb_cara.png" / >
+<link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+<script language="javascript">
+	var currentPage = 'about';
+	
+	function setPage(page) {
+			document.getElementById(currentPage).style.height = "0";
+			document.getElementById(page).style.height = "";
+			/*
+			document.getElementById(currentPage).style.display = "none";
+			document.getElementById(page).style.display = "";
+			*/
+			currentPage = page;
+		}
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Caramella Girls - Now on iPhone and iPod Touch</title>
+<style type="text/css">
+
+	body
+	{
+		background-image:url(bg_fade.png);
+		background-color: #340d29;
+		background-repeat:repeat-x;
+		font-family: Lucida Grande, Helvetica, Arial, sans-serif;
+		font-size: 13px;
+		line-height: 22px;
+		
+		text-align: center;
+		margin: 0;
+	}
+	
+	html,body
+	{
+		height:100%;
+	}
+	
+	html
+	{
+		overflow-y:scroll;
+	}
+		
+
+	p,li
+	{
+		text-shadow: 0.0 2px black;
+		color:white;
+		text-align: left;
+		margin: 0;
+		padding-bottom: 10px;
+	}
+	
+	th,td
+	{
+		color:white;
+		font-weight:normal;
+	}
+	
+	
+	b
+	{
+		font-weight: bold;
+		color: #ee9cd3;
+	}
+
+	a 
+	{
+		font-weight: bold;
+		color: #ee9cd3;
+		text-shadow: none;
+	}
+
+	a:hover 
+	{
+		font-weight: bold;
+		color: #ffffff;
+		text-shadow: none;
+	}
+
+
+	#container
+	{
+		width: 1051px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: left;
+	}
+	
+
+	#flash
+	{
+		width: 1051px;
+		height: 275px;
+	}
+	
+
+	.stripe
+	{
+		/*width: 938px;  1051 */
+		width: 968px; /* 1051 */
+		margin-left: 41px;
+		margin-right: 42px;
+		/*padding: 15px;*/
+		background-image:url(bg_striped_2.png);
+		background-repeat:repeat-x;
+		background-color: #45234c;
+		overflow:hidden;
+	}
+	
+	.stripe > div
+	{
+		padding: 15px;
+	}
+
+	#bottom
+	{
+		clear:both;
+		width: 1051px;
+		height: 45px;
+		background-image:url(bottom_shelf.png);
+	}
+
+
+	.iphone
+	{
+		width: 427px;
+		height: 251px;
+		/* background-image:url(iphone.png);*/
+		float: left;
+	}
+	
+	.albums
+	{
+		width: 334px;
+		height: 399px;
+		background-image:url(caramella_covers_3.png);
+		float: left;
+		margin-left: 30px;
+	}	
+	
+
+	.itunes_icon
+	{
+		width: 300px;
+		height: 360px;
+		background-image:url(icon_itunes.png);
+		float: left;
+		margin-left: 67px;
+	}	
+
+	.clear
+	{
+		clear:both;
+	}
+	
+	.box
+	{
+		width:500px;
+		float: right;
+	}
+	
+	.box_full
+	{
+		width:850px;
+		float: left;
+		margin-left: 50px;
+	}
+	
+	.box_youtube
+	{
+		width:610px;
+		float: left;
+		margin-left: 150px;
+	}
+	
+	.highscore_box
+	{
+		width:290px;
+		float: left;
+		padding:10px;
+	}
+	
+	table.highscores_table
+	{
+		width:100%;
+	}
+	
+	td.highscore_rank
+	{
+		text-align:center;
+	}
+	
+	td.highscore_name
+	{
+		text-align:left;
+	}
+	
+	td.highscore_name div
+	{
+		width:100px;
+		overflow:hidden;
+	}
+	
+	td.highscore_score
+	{
+		text-align:right;
+	}
+	
+	td.highscore_image
+	{
+		text-align:center;
+	}
+	
+	.box_top div, .box_bottom div
+	{
+		height:25px;
+	}
+	
+	.box_top .box_left
+	{
+		background-image:url(textarea_upper_left.png);
+		background-repeat:no-repeat;
+	}
+	
+	.box_top .box_right
+	{
+		background-image:url(textarea_upper_right.png);
+		background-position:top right;
+		background-repeat:no-repeat;
+	}
+	
+	.box_top .box_center
+	{
+		background-image:url(textarea_upper_middle.png);
+		background-repeat:repeat-x;
+	}
+	
+	.box_center
+	{
+		margin-left:25px;
+		margin-right:25px;
+	}
+
+	
+	.box_middle .box_left
+	{
+		background-image:url(textarea_middle_left.png);
+		background-repeat:repeat-y;
+	}
+	
+	.box_middle .box_right
+	{
+		background-image:url(textarea_middle_right.png);
+		background-position:top right;
+		background-repeat:repeat-y;
+	}
+	
+	.box_middle .box_center
+	{
+		background-image:url(textarea_middle.png);
+	}
+
+	
+	.box_bottom .box_left
+	{
+		background-image:url(textarea_downer_left.png);
+		background-repeat:no-repeat;
+	}
+	
+	.box_bottom .box_right
+	{
+		background-image:url(textarea_downer_right.png);
+		background-position:top right;
+		background-repeat:no-repeat;
+	}
+	
+	.box_bottom .box_center
+	{
+		background-image:url(textarea_downer_middle.png);
+	}
+
+</style>
+</head>
+
+<body>
+
+<div id="container">
+<
+	<div id="flash">	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" width="1051" height="275" id="caramella_top" align="middle">
+	<param name="allowScriptAccess" value="always" />
+	<param name="allowFullScreen" value="false" />
+	<param name="movie" value="caramella_top.swf" /><param name="menu" value="false" /><param name="quality" value="high" /><param name="wmode" value="transparent" /><param name="bgcolor" value="#000000" />	<embed src="caramella_top.swf" menu="false" quality="high" wmode="transparent" bgcolor="#000000" width="1051" height="275" name="caramella_top" align="middle" allowScriptAccess="always" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer" />
+	</object>
+</div>
+	<div class="stripe" id="about"><div>
+
+        <div class="iphone">
+        		<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" width="427" height="251" id="caramella_screenshots" align="middle">
+	<param name="allowScriptAccess" value="sameDomain" />
+	<param name="allowFullScreen" value="false" />
+	<param name="movie" value="caramella_screenshots.swf" /><param name="menu" value="false" /><param name="quality" value="high" /><param name="wmode" value="transparent" /><param name="bgcolor" value="#ffffff" />	<embed src="caramella_screenshots.swf" menu="false" quality="high" wmode="transparent" bgcolor="#ffffff" width="427" height="251" name="caramella_screenshots" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer" />
+	</object>
+	<p style="text-align:center;"><img src="tell_friends.png" border="0" width="264" height="63"></p>
+
+	
+	<p style="text-align:center;">
+<script type="text/javascript">
+	var addthis_share = { email_template: "caramella_template" }
+	</script>
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pub=bambalam"></script>
+		<div class="addthis_toolbox" style="margin-left: 70px">
+     <a class="addthis_button_email"><img src="mail_icon.png" border="0" width="64" height="64"></a>
+     <a class="addthis_button_twitter"><img src="twitter_icon.png" border="0" width="64" height="64"></a>
+     <a class="addthis_button_facebook"><img src="facebook_icon.png" border="0" width="64" height="64"></a>
+     <a class="addthis_button_myspace"><img src="myspace_icon.png" border="0" width="64" height="64"></a>
+      <div style="clear:both; float:none;"></div> 
+		</div>
+		
+		<!--<img src="mail_icon.png" border="0" width="64" height="64"> <img src="facebook_icon.png" border="0" width="64" height="64"> <img src="twitter_icon.png" border="0" width="64" height="64"> <img src="myspace_icon.png" border="0" width="64" height="64">-->
+		</p>
+        	</div>	
+        <div class="box">
+        
+            <div class="box_top">
+                <div class="box_left">
+                <div class="box_right">
+                <div class="box_center">
+            </div></div></div>
+            </div>
+                
+               <div class="box_middle">
+                <div class="box_left">
+                <div class="box_right">
+                <div class="box_center">                	 
+<p><b>Caramella Girls</b> is a music game that put your rhythmic skills to the test. It's based on rhythm, speed, finger sensitivity and memory. The song Caramelldansen itself have became a huge success on youtube with more then 30 000 different dance moves made of fans all around the world.
+It became "The Single Of The Year" in Japan last year as one of many achievements.</p>
+
+<p><b>Learning to play the game is very simple</b><br/>
+Just copy the Caramella Girls dance moves by tapping the buttons in sync with the icons on the beat bar on top.
+Miss a move and you'll lose power. When no power is left the game is over. Tap bonus stars to fill up your power again.</p>
+
+<p><b>Local and online high scores are available</b><br/>
+You can easily compare your scores with the scores with your friends. For the most bravest try to challenge the best players all around the world.</p>
+
+<p><b>Features</b><br/>
+• Colorful graphics<br/>
+• Original music tracks in English, Swedish and German<br/>
+• Three addictive difficulty levels<br/>
+• Facebook connect to boast your scores to the World<br/>
+• Local and global high scores</p>
+                    
+                    <p>Check out <b>Caramella Girls</b> on <b><a href="http://www.facebook.com/pages/Caramellagirls/169437587549" target="_blank">Facebook</a></b> and <b><a href="http://twitter.com/caramellagirls" target="_blank">Twitter</a></b>.</p>
+                    
+                   </div></div></div>
+               </div>
+            
+               <div class="box_bottom">
+                <div class="box_left">
+                <div class="box_right">
+                <div class="box_center">
+                   </div></div></div>
+               </div>
+        </div>
+        
+        <div class="clear"></div>
+	</div></div>
+	
+
+
+
+
+	
+
+	<script type="text/javascript">
+    
+		function highscores()
+		{
+        	document.write('<table class="highscores_table">');
+            document.write('<tr>');
+            document.write('<th>Rank</th>');
+            document.write('<th>Name</th>');
+            document.write('<th>Score</th>');
+            document.write('<th>Country</th>');
+            document.write('</tr>');
+					
+        	for( var n=0; n<gameHeartEntries.length; n++ )
+        	{
+				var gameHeartEntry = gameHeartEntries[ n ];
+				
+				document.write('<tr>');
+				document.write('<td class="highscore_rank">'+gameHeartEntry.rank+'</td>');
+				document.write('<td class="highscore_name"><div>'+gameHeartEntry.name+'</div></td>');
+				document.write('<td class="highscore_score">'+gameHeartEntry.score+'</td>');
+				document.write('<td class="highscore_image"><img src="'+gameHeartEntry.image+'"/></td>');
+				document.write('</tr>');
+        	}
+			
+            document.write('</table>');
+		}
+    
+    </script>
+                        
+	<div class="stripe" id="highscores" style="height:0"><div>
+
+        <div class="highscore_box">
+        
+            <div class="box_top">
+                <div class="box_left">
+                <div class="box_right">
+                <div class="box_center">
+            </div></div></div>
+            </div>
+                
+               <div class="box_middle">
+                <div class="box_left">
+                <div class="box_right">
+                <div class="box_center">
+                
+                	<p>Easy</p>
+					<script type="text/javascript" src="http://game-heart.appspot.com/js?list=300&count=1000"></script>
+                    <script type="text/javascript"> highscores() </script>
+                    
+                   </div></div></div>
+               </div>
+            
+               <div class="box_bottom">
+                <div class="box_left">
+                <div class="box_right">
+                <div class="box_center">
+                   </div></div></div>
+               </div>
+               
+	        <div class="clear"></div>
+        </div>
+        
+        <div class="highscore_box">
+        
+            <div class="box_top">
+                <div class="box_left">
+                <div class="box_right">
+                <div class="box_center">
+            </div></div></div>
+            </div>
+                
+               <div class="box_middle">
+                <div class="box_left">
+                <div class="box_right">
+                <div class="box_center">
+                
+                	<p>Medium</p>
+					<script type="text/javascript" src="http://game-heart.appspot.com/js?list=301&count=1000"></script>
+                    <script type="text/javascript"> highscores() </script>
+                    
+                   </div></div></div>
+               </div>
+            
+               <div class="box_bottom">
+                <div class="box_left">
+                <div class="box_right">
+                <div class="box_center">
+                   </div></div></div>
+               </div>
+        </div>
+        
+        <div class="highscore_box">
+        
+            <div class="box_top">
+                <div class="box_left">
+                <div class="box_right">
+                <div class="box_center">
+            </div></div></div>
+            </div>
+                
+               <div class="box_middle">
+                <div class="box_left">
+                <div class="box_right">
+                <div class="box_center">
+                
+                	<p>Hard</p>
+					<script type="text/javascript" src="http://game-heart.appspot.com/js?list=302&count=1000"></script>
+                    <script type="text/javascript"> highscores() </script>
+                    
+                   </div></div></div>
+               </div>
+            
+               <div class="box_bottom">
+                <div class="box_left">
+                <div class="box_right">
+                <div class="box_center">
+                   </div></div></div>
+               </div>
+				
+        </div>
+        
+        <div class="clear"></div>
+        
+	</div></div>
+	
+<div class="stripe" id="buygame" style="height:0"><div>
+
+        <div class="itunes_icon"></div>
+        
+        <div class="box">
+        
+            <div class="box_top">
+                <div class="box_left">
+                <div class="box_right">
+                <div class="box_center">
+            </div></div></div>
+            </div>
+                
+               <div class="box_middle">
+                <div class="box_left">
+                <div class="box_right">
+                <div class="box_center">
+                	<p>Download <b>Caramella Girls</b> to your <b>iPhone/iPod Touch</b> today!</p>
+                	<p>There are two easy ways to download Caramella Girls to your iPhone/iPod Touch.<br>
+                	<ol>
+                	<li>Tap the <b>App Store icon</b> on your iPhone/iPod touch and search for "<b>Caramella Girls</b>". Tap "<b>Buy</b>".</li>
+                	<li>If you have <b>iTunes</b> installed on your computer, just click the link below. Once iTunes is open, click "<b>Buy app</b>".</li>
+                	</ol>
+                	
+                	</p>
+                		<p style="text-align:center;"><a href="http://itunes.apple.com/se/app/caramella-girls/id339498362?mt=8"><img src="imac_appstore.png" border="0" width="313" height="126"></a></p>
+                	
+                	<!--<p><a href="http://itunes.apple.com/se/app/caramella-girls/id339498362?mt=8" target="_blank"><img src="imac.png" height="126" width="128" border="0" /></a></p>
+                	<p><a href="http://itunes.apple.com/se/app/caramella-girls/id339498362?mt=8" target="_blank"><img src="appstore_icon.png" height="40" width="124" border="0" /></a></p>-->
+                    
+                   </div></div></div>
+               </div>
+            
+               <div class="box_bottom">
+                <div class="box_left">
+                <div class="box_right">
+                <div class="box_center">
+                   </div></div></div>
+               </div>
+        </div>
+	
+        <div class="clear"></div>
+        
+	</div></div>	
+	
+<div class="stripe" id="music" style="height:0"><div>
+
+        <div class="albums"><img src="o.png" width="334" height="399" border="0" usemap="#albums"><map name="albums">
+  <area shape="rect" coords="72,0,248,177" target="_blank" href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewAlbum?i=281046727&id=281046723&s=143456&uo=6" alt="Supergott Album" />
+  <area shape="rect" coords="4,207,80,328" target="_blank" href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewAlbum?i=312718876&id=312718731&s=143456&uo=6" alt="Caramelltanzen" />
+  <area shape="rect" coords="88,207,162,328" target="_blank" href="http://itunes.apple.com/se/album/caramelldancing-christmas-version/id342889945?i=342889950" alt="Christmas version" />
+  <area shape="rect" coords="171,207,246,328" target="_blank" href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewAlbum?i=291367828&id=291367827&s=143456&uo=6" alt="Caramelldancing" />
+  <area shape="rect" coords="252,207,330,328" target="_blank" href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewAlbum?i=284106995&id=284106980&s=143456&uo=6" alt="Caramelldansen" />
+</map></div>	
+        
+        <div class="box" style="margin-right: 30px;">
+        
+            <div class="box_top">
+                <div class="box_left">
+                <div class="box_right">
+                <div class="box_center">
+            </div></div></div>
+            </div>
+                
+               <div class="box_middle">
+                <div class="box_left">
+                <div class="box_right">
+                <div class="box_center">
+                	<p>Buy the Caramella Girls albums and singels on iTunes!</p>
+                    <p><a href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewAlbum?i=281046727&id=281046723&s=143456&uo=6">Caramella Girls - Supergott (Speedy Mixes) ALBUM</a></p>
+                    <p><a href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewAlbum?i=284106995&id=284106980&s=143456&uo=6">Caramella Girls - Caramelldansen (Speedy Mixes) EP</a></p>
+                    <p><a href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewAlbum?i=291367828&id=291367827&s=143456&uo=6">Caramella Girls - Caramelldancing (English Version)</a></p>
+                    <p><a href="http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewAlbum?i=312718876&id=312718731&s=143456&uo=6">Caramella Girls - Caramelltanzen (German Version)</a></p>
+                    <p><a href="http://itunes.apple.com/se/album/caramelldancing-christmas-version/id342889945?i=342889950">Caramella Girls - Caramelldancing (Christmas Version)</a></p>
+                    
+                   </div></div></div>
+               </div>
+            
+               <div class="box_bottom">
+                <div class="box_left">
+                <div class="box_right">
+                <div class="box_center">
+                   </div></div></div>
+               </div>
+        </div>
+	
+        <div class="clear"></div>
+        
+	</div></div>		
+	
+<div class="stripe" id="guestbook" style="height:0"><div>
+	        
+        <div class="box_full">
+        
+            <div class="box_top">
+                <div class="box_left">
+                <div class="box_right">
+                <div class="box_center">
+            </div></div></div>
+            </div>
+                
+               <div class="box_middle">
+                <div class="box_left">
+                <div class="box_right">
+                <div class="box_center">
+                <p>Leave a comment if you want!</p>
+                	<p style="padding-top:1px;">
+                		
+                		<script>
+var idcomments_acct = '80bb81e37c0a506937f550635f7834fd';
+var idcomments_post_id;
+var idcomments_post_url;
+</script>
+<span id="IDCommentsPostTitle" style="display:none"></span>
+<script type='text/javascript' src='http://www.intensedebate.com/js/genericCommentWrapperV2.js'></script>
+                	</p>
+                    
+                   </div></div></div>
+               </div>
+            
+               <div class="box_bottom">
+                <div class="box_left">
+                <div class="box_right">
+                <div class="box_center">
+                   </div></div></div>
+               </div>
+        </div>
+	
+        <div class="clear"></div>
+        
+	</div></div>	
+	
+		<div class="stripe" id="trailer" style="height:0"><div>
+ 
+        <div class="box_youtube">
+        
+            <div class="box_top">
+                <div class="box_left">
+                <div class="box_right">
+                <div class="box_center">
+            </div></div></div>
+            </div>
+                
+               <div class="box_middle">
+                <div class="box_left">
+                <div class="box_right">
+                <div class="box_center">
+      
+                <object width="560" height="340"><param name="movie" value="http://www.youtube.com/v/1dmlpKqjQuA&hl=sv_SE&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/1dmlpKqjQuA&hl=sv_SE&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="560" height="340"></embed></object>
+                    
+                   </div></div></div>
+               </div>
+            
+               <div class="box_bottom">
+                <div class="box_left">
+                <div class="box_right">
+                <div class="box_center">
+                   </div></div></div>
+               </div>
+        </div>
+	
+        <div class="clear"></div>
+        
+	</div></div>
+	
+	<div id="bottom"></div>
+
+</div>
+
+
+
+
+</body>
+</html>
