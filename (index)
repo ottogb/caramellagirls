@@ -1,0 +1,194 @@
+<html>
+
+<head>
+
+	<!--Written by Oscar Arnflo for Swemix Records 2015-->
+
+	<title>Caramella Girls Official Website</title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+	<meta name="description" content="Caramella Girls Official Website!">
+
+	<meta name="keywords" content="caramellagirl, Caramella Girls, caramell, karamell, manga, game, music game, manga music, anime, Caramellagirls, caramelldansen, cartoon, songs of caramellagirls, cartoon band, Lollipop, , Wish Upon A Star, Saw you standing there, Candy girl, Ooh Aah Just A Little bit, How Can You Say Goodbye, Tokyo, Vad Heter Du?, Ooa Hela Natten, Doktorn, I Min Mobil, Spelar Ingen Roll, Diskotek, I Drömmarnas Land, Kom Håll Om Mig, Allra Bästa Vänner, Ett & Två, Vild Och Galen, Boogiebam, Boggie Bam Dance, Caramella, Mike Crack Collaboration">
+
+	<meta name="robots" content="index,follow,noarchive">
+
+	<meta name="googlebot" content="index,follow,noarchive">		
+
+	<meta name="distribution" content="global">
+
+
+
+	<meta name="language" content="sv">
+
+	<meta name="author" content="Remixed Records">
+
+	<meta name="copyright" content="Remixed Records">
+
+	<link rel="image_src" href="http://www.caramellagirls.com/thumb_cara.png">
+
+	<link rel="icon" type="image/png" href="favicon.png" />
+
+	<link rel='stylesheet' href='style.css' type='text/css'>
+
+	<script type="text/javascript" src="jquery.js"></script>
+
+	<script type="text/javascript" src="script.js"></script>
+
+	<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+
+</head>
+
+<body>
+
+<div id='main'>
+
+
+
+	<img src='buttons/switch_to_kawaii.png' id='to_kawaii' class='switch'>
+
+	<img src='buttons/switch_to_youngsters.png' id='to_youngsters' class='switch'>
+
+
+
+	<div class='girls youngsters'>
+
+		<!--mindy-->
+
+		<a target='_blank' onClick="window.open('https://open.spotify.com/artist/73r19TWxqEnnFf6O1u1e92?si=HVzP1pAVS2u7eue2w0oKwA');" title='Mindy'>
+
+			<img border=0 src='girls/youngster_mindy.png' id='youngster_mindy' class='done'>
+
+			<div id='youngster_mindy' class='youngster_mindy_hitbox' name='mindy' class='done'></div>
+
+		</a>
+
+		<!--vera-->
+
+		<a title='Verá'  onClick='window.open("https://itunes.apple.com/se/artist/caramella-girls/426577292");'>
+
+			<img border=0 src='girls/youngster_vera.png' id='youngster_vera' class='done'>
+
+			<div id='youngster_vera' class='youngster_vera_hitbox' name='vera' class='done'></div>
+
+		</a>
+
+		<!--nadine-->
+
+		<a target='_blank' onClick="window.open('https://www.youtube.com/caramellagirls');" title='Nadine'>
+
+			<img border=0 src='girls/youngster_nadine.png' id='youngster_nadine' class='done'>
+
+			<div id='youngster_nadine' class='youngster_nadine_hitbox' name='nadine' class='done'></div>
+
+		</a>
+
+	</div>
+
+
+
+	<div class='girls kawaii'>
+
+		<!--vera-->
+
+		<a title='Verá' onClick='window.open("https://itunes.apple.com/se/artist/caramella-girls/426577292");'>
+
+			<img border=0 src='girls/kawaii_vera.png' id='kawaii_vera'>
+
+			<div id='kawaii_vera' class='kawaii_vera_hitbox' name='vera' class='done'></div>
+
+		</a>
+
+		<!--nadine-->
+
+		<a title='Nadine' onClick='window.open("https://www.youtube.com/caramellagirls");'>
+
+			<img border=0 src='girls/kawaii_nadine.png' id='kawaii_nadine'>
+
+			<div id='kawaii_nadine' class='kawaii_nadine_hitbox' name='nadine' class='done'></div>
+
+		</a>
+
+		<!--mindy-->
+
+		<a title='Mindy' onClick='window.open("https://open.spotify.com/artist/73r19TWxqEnnFf6O1u1e92?si=HVzP1pAVS2u7eue2w0oKwA");'>
+
+			<img border=0 src='girls/kawaii_mindy2.png' id='kawaii_mindy'>
+
+			<div id='kawaii_mindy' class='kawaii_mindy_hitbox' name='mindy' class='done'></div>
+
+		</a>
+
+	</div>	
+
+
+
+	<!--left buttons-->
+
+	<div id='button_div_left'>
+
+		<div class='button'>
+
+			<img border=0 src='buttons/shop_black.png' onMouseOver="this.src='buttons/shop_black_hover.png';" onMouseOut="this.src='buttons/shop_black.png';" onClick="window.location='shop';">
+
+		</div>
+
+	</div>
+
+
+
+	<!--right buttons-->
+
+	<div id='button_div_right'>
+
+		<!---FACEBOOK-->
+
+		<div class='button'><img border=0 src='buttons/facebook.png' onMouseOver="this.src='buttons/facebook_hover.png';" onMouseOut="this.src='buttons/facebook.png';" onClick="window.open('https://www.facebook.com/Caramella-Girls-169269319770072/');"></div>
+
+		<!---TWITTER-->
+
+		<div class='button'><img src='buttons/twitter.png' onMouseOver="this.src='buttons/twitter_hover.png';" onMouseOut="this.src='buttons/twitter.png';" onClick="window.open('http://twitter.com/caramellagirls');"></div>
+
+		<!--MAIL-->
+
+		<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4d94e92546b2ee37"></script>
+
+		<div class="addthis_toolbox" style="margin-left: 70px">
+
+			<a class="addthis_button_email" style='margin-left:-70px;'><img class='button' src="buttons/mail.png" border="0" onMouseOver="this.src='buttons/mail_hover.png';" onMouseOut="this.src='buttons/mail.png';"></a>
+
+		</div>
+
+		<!--MAIL-->
+
+		<!---MYSPACE-->
+
+		<div class='button'><img border=0 src='buttons/instagram.png' onMouseOver="this.src='buttons/instagram_hover.png';" onMouseOut="this.src='buttons/instagram.png';" onClick="window.open('https://instagram.com/caramellagirls');"></div>
+
+		<!---YOUTUBE-->
+
+		<div class='button' style='margin-left:11px;'><img border=0 src='buttons/youtube.png' style='margin-left:-13px;' onMouseOver="this.src='buttons/youtube_hover.png';" onMouseOut="this.src='buttons/youtube.png';" onClick="window.open('http://www.youtube.com/caramellagirls');"></a></div>
+
+		<!---GAME-->
+
+		<div class='button' style='margin-left:3px;'><img border=0 src='buttons/game.png' onMouseOver="this.src='buttons/game_hover.png';" onMouseOut="this.src='buttons/game.png';" onClick="window.location='game';"></div>
+
+		<!---FACEBOOK LIKE-->
+
+		<!--<iframe class='button' src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2F%23%21%2Fpages%2FCaramella-Girls%2F169269319770072&amp;layout=box_count&amp;show_faces=true&amp;width=450&amp;action=like&amp;font&amp;colorscheme=light&amp;height=65" scrolling="no" frameborder="0" style="width:104px;height:65px;margin-top:-5px; left:30px;"></iframe>
+
+		<div class='button' id='fb_like'></div>-->
+
+	</div>
+
+
+
+
+
+</div>
+
+</body>
+
+</html>
+
